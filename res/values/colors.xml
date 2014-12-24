@@ -141,7 +141,7 @@
     <!-- Text color of the search box text as entered by user  -->
     <color name="searchbox_text_color">#ffffff</color>
     <!-- Background color of the search box -->
-    <color name="searchbox_background_color">@*android:color/material_blue_grey</color>
+    <color name="searchbox_background_color">@*android:color/black</color>
 
     <color name="searchbox_hint_text_color">#4dffffff</color>
     <color name="searchbox_icon_tint">#ffffff</color>
@@ -150,7 +150,7 @@
     <color name="search_shortcut_icon_color">#ffffff</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">@*android:color/material_blue_grey</color>
-    <color name="contact_all_list_background_color">@*android:color/material_blue_grey</color>
+    <color name="background_primary">@*android:color/black</color>
+    <color name="contact_all_list_background_color">@*android:color/black</color>
 </resources>
 
