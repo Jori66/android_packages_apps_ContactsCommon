@@ -145,7 +145,7 @@
     <color name="searchbox_background_color">#ff000000</color>
 
     <color name="searchbox_hint_text_color">#ffaaaaaa</color>
-    <color name="searchbox_icon_tint">#ff90a4ae</color>
+    <color name="searchbox_icon_tint">@color/primary_color</color>
 
     <color name="search_shortcut_background_color">#b6b6b6</color>
     <color name="search_shortcut_icon_color">#fff8f8f8</color>
