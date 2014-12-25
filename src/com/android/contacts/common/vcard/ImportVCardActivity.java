@@ -963,7 +963,7 @@ public class ImportVCardActivity extends Activity {
                     Log.e(LOG_TAG, "Error message is null while it must not.");
                     message = getString(R.string.fail_reason_unknown);
                 }
-                final AlertDialog.Builder builder = new AlertDialog.Builder(this
+                final AlertDialog.Builder builder = new AlertDialog.Builder(this)
                     .setTitle(getString(R.string.reading_vcard_failed_title))
                     .setIconAttribute(android.R.attr.alertDialogIcon)
                     .setMessage(message)
