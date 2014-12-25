@@ -16,7 +16,7 @@
 
 <resources>
     <!-- Background color corresponding to the holo list 9-patch. -->
-    <color name="holo_list_background_color">#111111</color>
+    <color name="holo_list_background_color">#ff000000</color>
 
     <color name="focus_color">#44ff0000</color>
 
@@ -24,39 +24,39 @@
     <color name="ripple_material_dark">#20ffffff</color>
 
     <!-- Divider color for header separator -->
-    <color name="primary_text_color">@color/dialtacts_primary_text_color</color>
+    <color name="primary_text_color">#ffffffff</color>
 
     <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
 
     <!-- Text color for section header. -->
-    <color name="section_header_text_color">#b3ffffff</color>
+    <color name="section_header_text_color">#ffb0bec5</color>
 
     <!-- Divider color for header separator -->
-    <color name="main_header_separator_color">#1fffffff</color>
+    <color name="main_header_separator_color">#ffaaaaaa</color>
 
     <!-- Divider color for header separator -->
-    <color name="secondary_header_separator_color">#0fffffff</color>
+    <color name="secondary_header_separator_color">#ffd0d0d0</color>
 
     <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">#363636</color>
+    <color name="people_app_theme_color">#ff90a4ae</color>
 
     <!-- Color of the theme of the Dialer app -->
-    <color name="dialtacts_theme_color">#0288d1</color>
+    <color name="dialtacts_theme_color">#ff607d8b</color>
 
     <!-- Color of image view placeholder. -->
-    <color name="image_placeholder">#222222</color>
+    <color name="image_placeholder">#ffdddddd</color>
 
     <!-- Primary text color in the Phone app -->
-    <color name="dialtacts_primary_text_color">#ffffff</color>
+    <color name="dialtacts_primary_text_color">#ffebebeb</color>
 
     <!-- Secondary text color in the Phone app -->
-    <color name="dialtacts_secondary_text_color">#b3ffffff</color>
+    <color name="dialtacts_secondary_text_color">#ffaaaaaa</color>
 
     <!--  Color of the semi-transparent shadow box on contact tiles -->
     <color name="contact_tile_shadow_box_color">#7F000000</color>
 
     <!--  Color of the status message for starred contacts in the People app -->
-    <color name="people_contact_tile_status_color">#ffffff</color>
+    <color name="people_contact_tile_status_color">#ffcccccc</color>
 
     <color name="shortcut_overlay_text_background">#7f000000</color>
 
@@ -114,17 +114,17 @@
     <color name="quickcontact_default_photo_tint_color_dark">#455A64</color>
 
 
-    <color name="letter_tile_default_color">#333333</color>
+    <color name="letter_tile_default_color">#ffcccccc</color>
 
     <color name="letter_tile_font_color">#ffffff</color>
 
     <!-- Background color of action bars. Ensure this stays in sync with packages/Telephony
          actionbar_background_color. -->
-    <color name="actionbar_background_color">#0fc6dc</color>
+    <color name="actionbar_background_color">@color/primary_color</color>
     <!-- Color for icons in the actionbar -->
     <color name="actionbar_icon_color">#ffffff</color>
     <!-- Darker version of the actionbar color. Used for the status bar and navigation bar colors. -->
-    <color name="actionbar_background_color_dark">#008aa1</color>
+    <color name="actionbar_background_color_dark">@color/primary_color_dark</color>
 
     <color name="tab_ripple_color">@color/tab_accent_color</color>
     <color name="tab_accent_color">#ffffff</color>
@@ -141,16 +141,16 @@
     <!-- Text color of the search box text as entered by user  -->
     <color name="searchbox_text_color">#ffffff</color>
     <!-- Background color of the search box -->
-    <color name="searchbox_background_color">@*android:color/black</color>
+    <color name="searchbox_background_color">#ff000000</color>
 
-    <color name="searchbox_hint_text_color">#4dffffff</color>
-    <color name="searchbox_icon_tint">#ffffff</color>
+    <color name="searchbox_hint_text_color">#ffaaaaaa</color>
+    <color name="searchbox_icon_tint">@color/primary_color</color>
 
     <color name="search_shortcut_background_color">#b6b6b6</color>
-    <color name="search_shortcut_icon_color">#ffffff</color>
+    <color name="search_shortcut_icon_color">#fff8f8f8</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">@*android:color/black</color>
-    <color name="contact_all_list_background_color">@*android:color/black</color>
+    <color name="background_primary">#ff000000</color>
+    <color name="contact_all_list_background_color">#ff111619</color>
 </resources>
 

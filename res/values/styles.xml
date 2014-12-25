@@ -62,11 +62,12 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
 
     <style name="TextAppearanceSmall" parent="@android:style/TextAppearance.Small">
         <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#4dffffff</item>
+        <item name="android:textColor">#ffaaaaaa</item>
     </style>
 
     <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
 
     <style name="ContactListFilterTheme" parent="@android:Theme.Material">
